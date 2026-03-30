@@ -1,26 +1,31 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
---bg: #faf8f4;
---surface: #ffffff;
---border: #e8e0d4;
---text: #2c2416;
---text-muted: #7a6e5f;
---accent: #8b5e3c;
---accent-light: #f5ede4;
---accent-dark: #6b4427;
---gold: #c9a96e;
---gold-light: #fdf6e8;
---green: #3d6b4a;
---green-light: #eaf3ec;
---blue: #2f5a8a;
---blue-light: #e8f0f8;
---red: #8b2e2e;
---red-light: #fceaea;
---radius: 12px;
---radius-sm: 8px;
---shadow: 0 2px 12px rgba(44,36,22,0.08);
---shadow-md: 0 4px 24px rgba(44,36,22,0.12);
+  --bg: #f4f7fa;
+  --surface: #ffffff;
+  --border: #cbd8e6;
+  --text: #0d1f2d;
+  --text-muted: #4a6070;
+
+  /* navy*/
+  --accent: #1c3f60;
+  --accent-light: #e4ebf4;
+  --accent-dark: #132c45;
+
+  /* orange */
+  --gold: #e5522a;
+  --gold-light: #fee8df;
+
+  --green: #2a6b3f;
+  --green-light: #e4f0e9;
+  --blue: #1c3f60;
+  --blue-light: #e4ebf4;
+  --red: #8b2e2e;
+  --red-light: #fceaea;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 2px 12px rgba(13,31,45,0.08);
+  --shadow-md: 0 4px 24px rgba(13,31,45,0.12);
 }
 
 body {
@@ -58,7 +63,7 @@ font-weight: 400;
 line-height: 1.2;
 margin-bottom: 12px;
 }
-.header h2 { font-style: italic; color: var(--gold-light); }
+.header h2 { font-style: italic; color: #F4A47A; }
 .header p {
 max-width: 520px;
 margin: 0 auto;
