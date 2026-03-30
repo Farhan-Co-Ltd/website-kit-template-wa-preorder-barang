@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Template WA — Custom Pre-order Kaligrafi GHATAWATCH</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="header-label">Kit Template WhatsApp</div>
+  <h2>Custom Pre-order Kaligrafi Kayu</h2>
+  <p>7 template siap pakai — dari customer pertama masuk sampai order selesai. Ganti bagian <span style="background:rgba(255,255,255,0.25);border-radius:4px;padding:1px 6px;font-style:italic;font-size:12px;">berwarna seperti ini</span> dengan data aktual.</p>
+  <div class="header-badge">🕌 GHATAWATCH · Kaligrafi Dinding & Hiasan Pintu</div>
+</div>
+
+<nav class="nav">
+  <button class="nav-btn active" onclick="showSection('sk')">S&K & Penawaran</button>
+  <button class="nav-btn" onclick="showSection('dp')">Konfirmasi & DP</button>
+  <button class="nav-btn" onclick="showSection('wo')">Work Order</button>
+  <button class="nav-btn" onclick="showSection('update')">Update Produksi</button>
+  <button class="nav-btn" onclick="showSection('done')">Produk Jadi</button>
+  <button class="nav-btn" onclick="showSection('kirim')">Pengiriman</button>
+  <button class="nav-btn" onclick="showSection('cancel')">Cancel Policy</button>
+</nav>
+
+<div class="main">
+
+  <!-- ===== S&K ===== -->
+  <div class="section active" id="sk">
+    <div class="section-header">
+      <div class="section-num">Template 1 dari 7</div>
+      <div class="section-title">Syarat & Ketentuan + Penawaran Awal</div>
+      <p class="section-desc">Dikirim saat customer pertama kali tanya soal produk. Tujuannya: memberi info lengkap, memfilter customer serius, dan menyepakati aturan main sejak awal.</p>
+    </div>
+
+    <div class="product-info">
+      <span class="chip">📿 Kaligrafi Dinding 3mm & 6mm</span>
+      <span class="chip">🚪 Hiasan Pintu Assalamualaikum & Bismillah</span>
+      <span class="chip">🎨 Hitam · Gold · Putih · Biru</span>
+      <span class="chip">💰 Mulai Rp 15.000</span>
+      <span class="chip">⏱ 3–4 Hari Kerja</span>
+    </div>
+
+    <div class="rule-block">
+      <div class="rule-title">⚠ Kenapa S&K harus dikirim sebelum DP?</div>
+      <ul class="rule-list">
+        <li>Customer yang sudah membaca & setuju S&K tidak bisa bilang "saya tidak tahu" saat dispute</li>
+        <li>Memfilter customer yang tidak serius — yang kabur setelah baca S&K memang lebih baik tidak jadi order</li>
+        <li>Chat WA dengan konfirmasi "setuju" = bukti persetujuan tertulis yang valid</li>
+      </ul>
+    </div>
+
+    <div class="template-card">
+      <div class="card-head">
+        <span class="card-title">Template 1A — Respon pertama + info produk</span>
+        <span class="card-tag tag-required">Wajib kirim</span>
+      </div>
+      <div class="card-body">
+        <div class="template-note">Kirim saat customer pertama tanya. Sesuaikan nama dan pilihan produk sesuai yang ditanyakan customer.</div>
+        <div class="message-box" id="t1a">Halo Kak <span class="placeholder">[Nama Customer]</span> 👋
+
+Terima kasih sudah menghubungi *GHATAWATCH* ✨
+Kami menerima pesanan *kaligrafi kayu custom* — hiasan dinding & hiasan pintu Islami yang dibuat khusus sesuai keinginan Kakak.
+
+Berikut info singkatnya:
+
+📿 *Pilihan produk:*
+• Kaligrafi Dinding (Ar-Rahman, Al-Baqarah, Al-Kautsar, dll.)
+• Hiasan Pintu Assalamualaikum & Bismillah
+
+📐 *Ketebalan:* 3mm (standar) / 6mm (premium)
+🎨 *Pilihan warna:* Hitam, Gold, Putih, Biru
+💰 *Harga mulai dari:* Rp 15.000 – Rp 150.000
+⏱ *Estimasi pengerjaan:* 3–4 hari kerja setelah DP masuk
+📦 *Pengiriman:* Via JNE, POS, J&T, Antareja, JTR, J&T Cargo (ongkir ditanggung pembeli)
+
+Boleh Kakak ceritakan lebih detail produk yang diinginkan? 😊
+(jenis kaligrafi, ketebalan, warna, dan ukuran yang diinginkan)
+
+Kami pastikan setiap produk dikerjakan dengan teliti dan sepenuh hati 🙏</div>
+        <button class="copy-btn" onclick="copyText('t1a', this)">
+          <svg class="copy-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="9" height="9" rx="2"/><path d="M3 11V3a2 2 0 012-2h8"/></svg>
+          Salin template
+        </button>
+      </div>
+    </div>
+
+    <div class="template-card">
+      <div class="card-head">
+        <span class="card-title">Template 1B — Syarat & Ketentuan lengkap</span>
+        <span class="card-tag tag-required">Wajib kirim sebelum DP</span>
+      </div>
+      <div class="card-body">
+        <div class="template-note">Kirim setelah customer menunjukkan ketertarikan serius. Minta konfirmasi "setuju" sebelum lanjut ke tahap DP.</div>
+        <div class="message-box" id="t1b">Sebelum Kakak melanjutkan ke tahap pemesanan, mohon dibaca dulu ya Kak syarat & ketentuan kami 🙏
+
+━━━━━━━━━━━━━━━━
+📋 *SYARAT & KETENTUAN PEMESANAN*
+*GHATAWATCH — Kaligrafi & Hiasan Pintu*
+━━━━━━━━━━━━━━━━
+
+*1. STATUS PESANAN*
+Semua produk kami dibuat *khusus sesuai pesanan* (custom made-to-order). Produk belum dibuat sebelum DP diterima dan spesifikasi disetujui kedua pihak.
+
+*2. DOWN PAYMENT (DP)*
+• DP sebesar *50%* dari total harga wajib dibayar di awal
+• Proses ukir & produksi baru dimulai setelah DP masuk & terkonfirmasi
+• DP tidak dapat dikembalikan jika produksi sudah dimulai
+
+*3. PELUNASAN*
+• Sisa pembayaran dilunasi *sebelum barang dikirim*
+• Jika pelunasan tidak dilakukan dalam *3 hari* setelah produk jadi, kami berhak membatalkan pesanan & DP hangus
+
+*4. KETENTUAN CANCEL*
+• Cancel *sebelum* produksi mulai → DP kembali 50%
+• Cancel *setelah* produksi mulai → DP hangus 100%
+• Cancel karena *kesalahan kami* → Full refund + kompensasi
+
+*5. REVISI*
+• Revisi spesifikasi (jenis kaligrafi, warna, ukuran) hanya bisa dilakukan *sebelum* proses ukir dimulai
+• Revisi setelah produksi = biaya tambahan sesuai kesepakatan
+• Pastikan semua detail sudah benar saat konfirmasi work order
+
+*6. ESTIMASI PENGERJAAN*
+• Estimasi: *3–4 hari kerja* (tidak termasuk hari libur nasional)
+• Keterlambatan >2 hari dari estimasi = kami informasikan terlebih dahulu
+• Keterlambatan karena force majeure tidak termasuk tanggung jawab toko
+
+*7. KOMPLAIN & GARANSI*
+• Komplain produk cacat diterima maksimal *1×24 jam* setelah barang diterima (sertakan foto/video)
+• Kerusakan akibat penggunaan tidak sesuai tidak termasuk garansi
+
+━━━━━━━━━━━━━━━━
+
+Apakah Kakak sudah membaca dan *menyetujui* syarat & ketentuan di atas?
+Ketik *"SETUJU"* untuk melanjutkan ke tahap pemesanan ya Kak 😊</div>
+        <button class="copy-btn" onclick="copyText('t1b', this)">
+          <svg class="copy-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="9" height="9" rx="2"/><path d="M3 11V3a2 2 0 012-2h8"/></svg>
+          Salin template
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== DP ===== -->
+  <div class="section" id="dp">
+    <div class="section-header">
+      <div class="section-num">Template 2 dari 7</div>
+      <div class="section-title">Konfirmasi Order & Tagihan DP</div>
+      <p class="section-desc">Dikirim setelah customer reply "SETUJU" pada S&K. Berisi ringkasan pesanan dan instruksi pembayaran DP.</p>
+    </div>
+
+    <div class="template-card">
+      <div class="card-head">
+        <span class="card-title">Template 2A — Invoice DP</span>
+        <span class="card-tag tag-required">Wajib kirim</span>
+      </div>
+      <div class="card-body">
+        <div class="template-note">Pastikan semua detail spesifikasi sudah benar sebelum mengirim template ini. Setelah customer transfer, perubahan spesifikasi akan dikenakan biaya tambahan.</div>
+        <div class="message-box" id="t2a">Baik Kak <span class="placeholder">[Nama Customer]</span>, pesanan Kakak kami catat ya 📝
+
+━━━━━━━━━━━━━━━━
+🧾 *RINGKASAN PESANAN*
+No. Order: <span class="placeholder">[TANGGAL-NOMOR URUT, contoh: 2506-001]</span>
+━━━━━━━━━━━━━━━━
+
+📿 *Produk:* <span class="placeholder">[nama kaligrafi, contoh: Kaligrafi Ar-Rahman 6mm Gold]</span>
+📐 *Spesifikasi:*
+  • Jenis ayat/teks: <span class="placeholder">[Ar-Rahman / Al-Kautsar / Bismillah / dll.]</span>
+  • Ketebalan: <span class="placeholder">[3mm / 6mm]</span>
+  • Warna: <span class="placeholder">[Hitam / Gold / Putih / Biru]</span>
+  • Peruntukan: <span class="placeholder">[Hiasan Dinding / Hiasan Pintu]</span>
+  • Catatan khusus: <span class="placeholder">[jika ada]</span>
+
+⏱ *Estimasi selesai:* <span class="placeholder">[tanggal estimasi]</span>
+👤 *Penerima:* <span class="placeholder">[nama penerima]</span>
+📍 *Alamat kirim:* <span class="placeholder">[alamat lengkap + kode pos]</span>
+
+━━━━━━━━━━━━━━━━
+💰 *RINCIAN PEMBAYARAN*
+Harga produk: Rp <span class="placeholder">[harga]</span>
+Ongkir: Rp <span class="placeholder">[ongkir / akan dikonfirmasi]</span>
+*Total: Rp <span class="placeholder">[total]</span>*
+
+*DP (50%) yang harus dibayar sekarang:*
+*Rp <span class="placeholder">[nominal DP]</span>*
+━━━━━━━━━━━━━━━━
+
+💳 *Transfer ke:*
+Bank <span class="placeholder">[nama bank]</span>
+No. Rek: <span class="placeholder">[nomor rekening]</span>
+A/N: <span class="placeholder">[nama pemilik rekening]</span>
+
+⏰ Mohon transfer dalam *24 jam* ya Kak. Jika belum ada konfirmasi setelah 24 jam, pesanan akan kami batalkan otomatis.
+
+Setelah transfer, kirim bukti pembayaran ke sini ya 🙏</div>
+        <button class="copy-btn" onclick="copyText('t2a', this)">
+          <svg class="copy-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="9" height="9" rx="2"/><path d="M3 11V3a2 2 0 012-2h8"/></svg>
+          Salin template
+        </button>
+      </div>
+    </div>
+
+    <div class="template-card">
+      <div class="card-head">
+        <span class="card-title">Template 2B — Konfirmasi DP diterima</span>
+        <span class="card-tag tag-required">Wajib kirim</span>
+      </div>
+      <div class="card-body">
+        <div class="message-box" id="t2b">DP sudah kami terima ya Kak <span class="placeholder">[Nama Customer]</span> ✅
+
+*Rp <span class="placeholder">[nominal DP]</span>* masuk pada <span class="placeholder">[tanggal & jam]</span>
+
+Pesanan Kakak dengan No. Order *<span class="placeholder">[nomor order]</span>* resmi kami proses mulai hari ini 🎉
+
+📿 Produk: <span class="placeholder">[nama kaligrafi + spesifikasi ringkas]</span>
+⏱ Estimasi selesai: *<span class="placeholder">[tanggal estimasi]</span>*
+
+Kami akan kabari Kakak saat ada update pengerjaan ya 🙏
+Terima kasih sudah mempercayakan pesanan ke GHATAWATCH!</div>
+        <button class="copy-btn" onclick="copyText('t2b', this)">
+          <svg class="copy-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="9" height="9" rx="2"/><path d="M3 11V3a2 2 0 012-2h8"/></svg>
+          Salin template
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== WORK ORDER ===== -->
+  <div class="section" id="wo">
+    <div class="section-header">
+      <div class="section-num">Template 3 dari 7</div>
+      <div class="section-title">Work Order — Serah Terima ke Produksi</div>
+      <p class="section-desc">Dokumen internal yang dikirim ke tim pengrajin setelah DP masuk. Bisa dikirim via WA grup tim atau diprint & ditempel di area kerja.</p>
+    </div>
+
+    <div class="template-card">
+      <div class="card-head">
+        <span class="card-title">Template 3 — Work Order internal</span>
+        <span class="card-tag tag-info">Untuk tim produksi</span>
+      </div>
+      <div class="card-body">
+        <div class="template-note">Kirim ke WA grup tim produksi atau print & tempel di area kerja. PIC pengrajin wajib konfirmasi "sudah terima" setelah menerima ini.</div>
+        <div class="message-box" id="t3">🔧 *WORK ORDER BARU — KALIGRAFI*
+━━━━━━━━━━━━━━━━
+No. Order: <span class="placeholder">[nomor order]</span>
+Tanggal masuk: <span class="placeholder">[tanggal]</span>
+*Deadline: <span class="placeholder">[tanggal deadline]</span>*
+━━━━━━━━━━━━━━━━
+
+👤 *Customer:* <span class="placeholder">[nama customer]</span>
+📿 *Produk:* <span class="placeholder">[nama kaligrafi]</span>
+🔢 *Jumlah:* <span class="placeholder">[qty]</span> pcs
+
+📋 *SPESIFIKASI LENGKAP:*
+• Jenis ayat/teks: <span class="placeholder">[contoh: Ar-Rahman / Bismillah / Assalamualaikum]</span>
+• Ketebalan kayu: <span class="placeholder">[3mm / 6mm]</span>
+• Warna finishing: <span class="placeholder">[Hitam / Gold / Putih / Biru]</span>
+• Peruntukan: <span class="placeholder">[Hiasan Dinding / Hiasan Pintu]</span>
+• Ukuran (jika ada): <span class="placeholder">[contoh: P25cm / P30cm / 15×40cm / 15×60cm]</span>
+• Referensi foto: <span class="placeholder">[kirim foto referensi jika ada]</span>
+• Catatan khusus: <span class="placeholder">[misal: finishing harus merata, tepi rapi, tidak ada serpihan]</span>
+
+📌 *CATATAN PRODUKSI:*
+<span class="placeholder">[isi catatan teknis jika ada — misal: ukiran harus simetris, warna gold dipoles dua lapis, dll.]</span>
+
+━━━━━━━━━━━━━━━━
+*Status:* 🟡 ANTRI PRODUKSI
+
+PIC yang terima WO ini, mohon konfirmasi ya 🙏</div>
+        <button class="copy-btn" onclick="copyText('t3', this)">
+          <svg class="copy-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="9" height="9" rx="2"/><path d="M3 11V3a2 2 0 012-2h8"/></svg>
+          Salin template
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== UPDATE ===== -->
+  <div class="section" id="update">
+    <div class="section-header">
+      <div class="section-num">Template 4 dari 7</div>
+      <div class="section-title">Update Progress Produksi</div>
+      <p class="section-desc">Opsional tapi sangat direkomendasikan. Customer yang diupdate secara proaktif jarang komplain soal waktu. Ini juga membangun kepercayaan jangka panjang.</p>
+    </div>
+
+    <div class="two-col">
+      <div class="template-card">
+        <div class="card-head">
+          <span class="card-title">Update: Mulai produksi</span>
+          <span class="card-tag tag-optional">Opsional</span>
+        </div>
+        <div class="card-body">
+          <div class="message-box" id="t4a" style="font-size:13px">Halo Kak <span class="placeholder">[Nama]</span> 😊
+
+Update pesanan No. *<span class="placeholder">[nomor order]</span>*:
+
+🪵 Kayu sudah disiapkan & proses ukiran baru saja dimulai hari ini!
+
+Estimasi selesai tetap di tanggal *<span class="placeholder">[tanggal]</span>* ya Kak 🙏</div>
+          <button class="copy-btn" onclick="copyText('t4a', this)">
+            <svg class="copy-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="9" height="9" rx="2"/><path d="M3 11V3a2 2 0 012-2h8"/></svg>
+            Salin
+          </button>
+        </div>
+      </div>
+
+      <div class="template-card">
+        <div class="card-head">
+          <span class="card-title">Update: Ada keterlambatan</span>
+          <span class="card-tag tag-required">Wajib kirim jika terlambat</span>
+        </div>
+        <div class="card-body">
+          <div class="message-box" id="t4b" style="font-size:13px">Halo Kak <span class="placeholder">[Nama]</span>, mohon maaf sebelumnya 🙏
+
+Kami ingin menginformasikan bahwa pesanan No. *<span class="placeholder">[nomor order]</span>* mengalami sedikit keterlambatan karena <span class="placeholder">[alasan singkat, misal: proses finishing membutuhkan waktu lebih]</span>.
+
+Estimasi baru: *<span class="placeholder">[tanggal revisi]</span>*
+
+Kami pastikan kualitas ukiran dan finishing produk Kakak tidak kami kompromikan. Terima kasih atas pengertiannya 🙏</div>
+          <button class="copy-btn" onclick="copyText('t4b', this)">
+            <svg class="copy-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="9" height="9" rx="2"/><path d="M3 11V3a2 2 0 012-2h8"/></svg>
+            Salin
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PRODUK JADI ===== -->
+  <div class="section" id="done">
+    <div class="section-header">
+      <div class="section-num">Template 5 dari 7</div>
+      <div class="section-title">Notifikasi Produk Jadi & Tagihan Pelunasan</div>
+      <p class="section-desc">Dikirim saat produk sudah melewati QC dan siap dikirim. Sertakan foto produk untuk meyakinkan customer sebelum bayar sisa.</p>
+    </div>
+
+    <div class="template-card">
+      <div class="card-head">
+        <span class="card-title">Template 5 — Produk selesai + tagih pelunasan</span>
+        <span class="card-tag tag-required">Wajib kirim</span>
+      </div>
+      <div class="card-body">
+        <div class="template-note">Kirim bersama 2–3 foto produk jadi dari berbagai sudut & pencahayaan. Foto yang bagus = customer langsung semangat bayar pelunasan.</div>
+        <div class="message-box" id="t5">Halo Kak <span class="placeholder">[Nama Customer]</span>! 🎉
+
+Kabar gembira — pesanan Kakak No. *<span class="placeholder">[nomor order]</span>* sudah selesai diukir, difinishing, dan sudah melewati quality check ✅
+
+*<span class="placeholder">[Nama kaligrafi + spesifikasi]</span>* Kakak sudah siap dikirim!
+_(foto terlampir ya Kak 📸)_
+
+Mohon dicek dulu apakah spesifikasinya sudah sesuai pesanan:
+• Jenis ayat/teks: <span class="placeholder">[...]</span> ✓
+• Ketebalan: <span class="placeholder">[3mm / 6mm]</span> ✓
+• Warna: <span class="placeholder">[...]</span> ✓
+• Peruntukan: <span class="placeholder">[Dinding / Pintu]</span> ✓
+
+Jika sudah sesuai, berikut tagihan pelunasannya ya Kak:
+
+━━━━━━━━━━━━━━━━
+💰 *TAGIHAN PELUNASAN*
+Total pesanan: Rp <span class="placeholder">[total]</span>
+DP sudah dibayar: Rp <span class="placeholder">[nominal DP]</span>
+Ongkir (<span class="placeholder">[ekspedisi + estimasi berat]</span>): Rp <span class="placeholder">[ongkir]</span>
+━━━━━━━━━━━━━━━━
+*Sisa yang perlu dibayar: Rp <span class="placeholder">[sisa + ongkir]</span>*
+━━━━━━━━━━━━━━━━
+
+💳 Transfer ke:
+Bank <span class="placeholder">[bank]</span> — <span class="placeholder">[no. rek]</span> a/n <span class="placeholder">[nama]</span>
+
+⏰ Mohon pelunasan dalam *3 hari* ya Kak. Barang akan segera kami kemas dan kirim setelah pembayaran terkonfirmasi 🚚</div>
+        <button class="copy-btn" onclick="copyText('t5', this)">
+          <svg class="copy-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="9" height="9" rx="2"/><path d="M3 11V3a2 2 0 012-2h8"/></svg>
+          Salin template
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PENGIRIMAN ===== -->
+  <div class="section" id="kirim">
+    <div class="section-header">
+      <div class="section-num">Template 6 dari 7</div>
+      <div class="section-title">Konfirmasi Pengiriman</div>
+      <p class="section-desc">Dikirim segera setelah paket diserahkan ke ekspedisi. Sertakan foto resi dan foto paket yang sudah dikemas dengan bubble wrap.</p>
+    </div>
+
+    <div class="template-card">
+      <div class="card-head">
+        <span class="card-title">Template 6 — Konfirmasi kirim + nomor resi</span>
+        <span class="card-tag tag-required">Wajib kirim</span>
+      </div>
+      <div class="card-body">
+        <div class="message-box" id="t6">Kabar baik Kak <span class="placeholder">[Nama Customer]</span>! 🚚
+
+Pesanan No. *<span class="placeholder">[nomor order]</span>* sudah kami kemas dengan aman dan kirim hari ini!
+
+📦 *Detail pengiriman:*
+• Ekspedisi: <span class="placeholder">[JNE / POS / J&T / Antareja / JTR / J&T Cargo]</span>
+• No. Resi: *<span class="placeholder">[nomor resi]</span>*
+• Tanggal kirim: <span class="placeholder">[tanggal]</span>
+• Estimasi tiba: <span class="placeholder">[estimasi]</span>
+
+Kakak bisa cek status pengiriman di:
+<span class="placeholder">[link tracking / cekresi.com]</span>
+
+Saat paket diterima, mohon periksa kondisi luar kemasan dulu ya Kak. Produk kaligrafi sudah kami bungkus dengan bubble wrap & kardus untuk keamanan. Jika ada kerusakan saat pengiriman, segera foto & kabari kami dalam *1×24 jam* setelah menerima paket 🙏
+
+Terima kasih sudah memesan di *GHATAWATCH*!
+Semoga kaligrafinya memperindah rumah Kakak 🕌💛
+
+_Jangan lupa kasih bintang 5 kalau puas ya Kak, sangat membantu kami_ 🙏⭐</div>
+        <button class="copy-btn" onclick="copyText('t6', this)">
+          <svg class="copy-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="9" height="9" rx="2"/><path d="M3 11V3a2 2 0 012-2h8"/></svg>
+          Salin template
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CANCEL ===== -->
+  <div class="section" id="cancel">
+    <div class="section-header">
+      <div class="section-num">Template 7 dari 7</div>
+      <div class="section-title">Respon Cancel & Dispute</div>
+      <p class="section-desc">Pakai dengan tenang dan tegas. Anda tidak perlu marah — cukup ingatkan apa yang sudah disepakati sejak awal.</p>
+    </div>
+
+    <div class="template-card">
+      <div class="card-head">
+        <span class="card-title">Template 7A — Customer minta cancel sebelum produksi</span>
+        <span class="card-tag tag-info">Kondisi: produksi belum mulai</span>
+      </div>
+      <div class="card-body">
+        <div class="message-box" id="t7a">Halo Kak <span class="placeholder">[Nama Customer]</span>, kami terima informasinya 🙏
+
+Sesuai syarat & ketentuan yang sudah Kakak setujui sebelumnya, untuk cancel *sebelum* proses ukiran dimulai, DP dikembalikan sebesar *50%*.
+
+Rincian:
+• DP yang dibayar: Rp <span class="placeholder">[nominal DP]</span>
+• Refund 50%: *Rp <span class="placeholder">[50% dari DP]</span>*
+
+Mohon kirimkan nomor rekening Kakak untuk proses refund ya. Akan kami proses dalam *1–3 hari kerja* 🙏
+
+Mohon maaf jika ada yang kurang berkenan, semoga lain kali bisa kami layani lagi Kakak 😊</div>
+        <button class="copy-btn" onclick="copyText('t7a', this)">
+          <svg class="copy-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="9" height="9" rx="2"/><path d="M3 11V3a2 2 0 012-2h8"/></svg>
+          Salin template
+        </button>
+      </div>
+    </div>
+
+    <div class="template-card">
+      <div class="card-head">
+        <span class="card-title">Template 7B — Customer minta cancel setelah produksi mulai</span>
+        <span class="card-tag tag-required">Kondisi: produksi sudah berjalan</span>
+      </div>
+      <div class="card-body">
+        <div class="template-note">Tetap tenang, ramah, tapi tegas. Anda tidak bersalah — ini sudah disepakati. Jangan langsung refund tanpa membaca template ini dulu.</div>
+        <div class="message-box" id="t7b">Halo Kak <span class="placeholder">[Nama Customer]</span>, terima kasih sudah menginformasikan 🙏
+
+Kami sampaikan dengan hormat bahwa pesanan No. *<span class="placeholder">[nomor order]</span>* sudah memasuki tahap produksi sejak *<span class="placeholder">[tanggal mulai produksi]</span>*. Kayu sudah dipotong dan proses ukiran sudah berjalan.
+
+Sesuai syarat & ketentuan yang sudah Kakak baca dan setujui pada *<span class="placeholder">[tanggal S&K disetujui]</span>*:
+
+_"Cancel setelah produksi dimulai → DP hangus 100%"_
+
+Dengan berat hati, DP sebesar *Rp <span class="placeholder">[nominal DP]</span>* tidak dapat kami kembalikan karena biaya bahan kayu dan biaya pengerjaan sudah terpakai.
+
+Namun kami tetap akan menyelesaikan produk Kakak dengan kualitas terbaik. Apakah Kakak ingin kami tetap lanjutkan pesanannya? 🙏
+
+Kami mohon maaf atas ketidaknyamanan ini.</div>
+        <button class="copy-btn" onclick="copyText('t7b', this)">
+          <svg class="copy-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="9" height="9" rx="2"/><path d="M3 11V3a2 2 0 012-2h8"/></svg>
+          Salin template
+        </button>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      <p><strong>💡 Tips dispute:</strong> Jika customer tetap memaksa dan mengancam lapor ke platform atau menyebarkan review buruk — tetap tenang. Screenshot seluruh percakapan dari awal (termasuk pesan S&K dan konfirmasi "SETUJU" mereka). Itu bukti Anda. Bisnis yang punya dokumentasi lengkap hampir selalu menang dalam dispute.</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
